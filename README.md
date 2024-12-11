@@ -33,6 +33,6 @@ If you fail to build up environment, please turn to './requirements_conda.txt' f
 ## Quick Start
 
 ```
-python main_fed.py --dataset cifar --model resnet --attack lp_attack --lr 0.1 --malicious 0.1 --poison_frac 1.0 --local_ep 2 --local_bs 64 --attack_begin 0 --defence flame --epochs 200 --attack_label 5 --attack_goal -1 --trigger 'square' --triggerX 27 --triggerY 27 --gpu 0 --iid 1 --save save/quick_start
+python main_fed.py --dataset cifar --model resnet --attack lp_attack --lr 0.1 --malicious 0.1 --poison_frac 1.0 --local_ep 2 --local_bs 64 --attack_begin 0 --defence flame --epochs 200 --attack_label 5 --attack_goal -1 --trigger square --triggerX 27 --triggerY 27 --gpu 0 --iid 1 --save save/quick_start
 ```
 
